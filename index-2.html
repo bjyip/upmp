@@ -22,6 +22,7 @@
 <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
 <link href="assets/css/animate.css" rel="stylesheet" />
 <link href="assets/css/bootsnav.css" rel="stylesheet" />
+<link href="assets/css/glide.css" rel="stylesheet" />
 <link href="assets/css/style.css" rel="stylesheet">
 <link href="assets/css/responsive.css" rel="stylesheet" />
 
@@ -110,7 +111,7 @@
 <!-- End Header --> 
 
 <!-- Start Banner -->
-<div class="utf-banner-area-block shadow navbar-transparent typed-text dark-hard text-light bg-fixed" style="background-image: url(assets/img/banner/banner-2.jpg);">
+<!-- <div class="utf-banner-area-block shadow navbar-transparent typed-text dark-hard text-light bg-fixed" style="background-image: url(assets/img/banner/banner-2.jpg);">
   <div class="utf-box-table">
     <div class="utf-box-cell">
       <div class="container">
@@ -128,7 +129,17 @@
       </div>
     </div>
   </div>
+</div> -->
+<div class="banner homeBanner">
+  <div class="slider">
+      <ul class="slider__wrapper">
+          <li class="slider__item"><a target="_blank" href="" style="background-image:url(assets/img/banner/banner-2.jpg)"><img src="assets/img/banner/banner-bg.png" alt="adminbuy 官方" /></a></li>
+          <li class="slider__item"><a target="_blank" href="" style="background-image:url(assets/img/banner/banner-3.jpg)"><img src="assets/img/banner/banner-bg.png" alt="adminbuy 官方" /></a></li>
+          <li class="slider__item"><a target="_blank" href="" style="background-image:url(assets/img/banner/banner-4.jpg)"><img src="assets/img/banner/banner-bg.png" alt="adminbuy 官方" /></a></li>
+      </ul>
+  </div>
 </div>
+
 <!-- End Banner --> 
 
 <!-- Start About -->
@@ -366,5 +377,12 @@
 <script src="assets/js/typed.js"></script> 
 <script src="assets/js/YTPlayer.min.js"></script> 
 <script src="assets/js/custom_script.js"></script>
+<script src="assets/js/jquery.glide.js" type="text/javascript"></script>
+<script type="text/javascript">
+  $('.slider').glide();
+  if ($(".banner .slider__wrapper li").length == 0) {
+      $(".banner").addClass("emptyBanner");
+  }
+</script>
 </body>
 </html>

@@ -2,12 +2,18 @@
     #RESPONSIVE CSS 
 ====================================*/
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
+header {
+	height: 65px;
+}
 .utf-banner-area-block.auto-height h1, .utf-banner-area-block.text-normal h1, .utf-banner-area-block.large-heading h1, .utf-banner-area-block.typed-text h1 {
     font-size: 50px;
 }	
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+header {
+	height: 65px;
+}
 .utf-about-area-item .right-info {
 	padding-left: 15px;
 	margin-top: 30px;
@@ -69,6 +75,9 @@ footer.centerd .menu {
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+header {
+	height: 65px;
+}
 /* Heading */
 h1 {
 	font-size: 36px;
@@ -362,6 +371,9 @@ footer.centerd .menu {
 }
 
 @media only screen and (min-width: 580px) and (max-width: 767px) {
+header {
+	height: 65px;
+}
 .utf-portfolio-area-item .utf-portfolio-items .pf-item,  .utf-portfolio-area-item .utf-portfolio-items.col-2 .pf-item,  .utf-portfolio-area-item .utf-portfolio-items.col-3 .pf-item,  .utf-portfolio-area-item .utf-portfolio-items.col-4 .pf-item,  .utf-portfolio-area-item .utf-portfolio-items .pf-item.width {
 	width: 50%;
 }
