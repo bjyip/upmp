@@ -1,0 +1,28 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+### macOS template
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+### JetBrains template
+.idea/
+*.iml
+
+### Node template
+# Logs
+logs/
+npm-debug.log*
+*-lock.json
+
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Optional npm cache directory
+.npm
+
+# Other project files
+.tern-project
+.vscode
