@@ -93,7 +93,7 @@
                     columnWidth: '.blog-item',
                 }
             });
-            var secFilterValue = $('.mix-item-menu').find("button").eq(1).attr('data-filter');
+            var secFilterValue = $('.mix-item-menu').find("button").eq(0).attr('data-filter');
             $grid.isotope({
                 filter: secFilterValue
             });

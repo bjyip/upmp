@@ -4,14 +4,13 @@ const app = express();
 
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
 
-for (let i = 1; i < 5; i++) {
-  app.get(`/index-${i}.html`, (req, res) => {
-    res.sendFile(path.join(__dirname, `/index-${i}.html`));
-  });
-}
-app.get('/index.html', (req, res) => {
-  res.sendFile(path.join(__dirname, '/index.html'));
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '/home.html'));
 });
+app.get('/products', (req, res) => {
+  res.sendFile(path.join(__dirname, '/products.html'));
+});
+
 
 const port = 8080;
 app.listen(port, err => {

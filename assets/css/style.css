@@ -1192,7 +1192,7 @@ to {
 	-webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 	-o-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-	padding: 25px 30px;
+	padding: 10px 30px;
 }
 .mix-item-menu.category-count button {
 	background: #f4f4f4 none repeat scroll 0 0;
@@ -3185,4 +3185,10 @@ footer.demo .copyright {
 }
 .utf-banner-area-block.demo-banner {
 	padding: 50px 0;
+}
+.navbar-brand .logo {
+	width: 110px;
+}
+.process-video {
+	width: 100%;
 }
