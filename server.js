@@ -9,8 +9,8 @@ for (let i = 1; i < 5; i++) {
     res.sendFile(path.join(__dirname, `/index-${i}.html`));
   });
 }
-app.get('/index', (req, res) => {
-  res.sendFile(path.join(__dirname, '/index-1.html'));
+app.get('/index.html', (req, res) => {
+  res.sendFile(path.join(__dirname, '/index.html'));
 });
 
 const port = 8080;
