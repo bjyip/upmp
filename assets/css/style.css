@@ -199,6 +199,12 @@ input {
 	position: relative;
 	z-index: 1;
 }
+.fb {
+	font-weight: bold;
+}
+.mt20 {
+	margin-top: 20px;
+}
 .shadow.dark::after {
 	background: #000000 none repeat scroll 0 0;
 	content: "";
@@ -653,7 +659,6 @@ nav.navbar.bootsnav .widget.instagram ul li img {
 	color: #c70039;
 }
 .utf-site-heading {
-	margin-bottom: 60px;
 	overflow: hidden;
 	margin-top: -5px;
 }
@@ -2567,7 +2572,7 @@ to {
 	margin: 0;
 	color: #6d6d6d;
 }
-.utf-services-area .utf-services-items .equal-height .item::after {
+/* .utf-services-area .utf-services-items .equal-height .item::after {
 	background: #c70039;
 	left: -100%;
 	content: "";
@@ -2581,10 +2586,10 @@ to {
 	transition: all 0.35s ease-in-out;
 	width: 100%;
 	z-index: -1;
-}
-.utf-services-area .utf-services-items .equal-height .item:hover::after {
+} */
+/* .utf-services-area .utf-services-items .equal-height .item:hover::after {
 	left: 0;
-}
+} */
 .utf-services-area .utf-services-items .equal-height .item i, .utf-services-area .utf-services-items .equal-height .item h4, .utf-services-area .utf-services-items .equal-height .item p {
 	-webkit-transition: all 0.35s ease-in-out;
 	-moz-transition: all 0.35s ease-in-out;
@@ -2592,9 +2597,9 @@ to {
 	-o-transition: all 0.35s ease-in-out;
 	transition: all 0.35s ease-in-out;
 }
-.utf-services-area .utf-services-items .equal-height .item:hover h4, .utf-services-area .utf-services-items .equal-height .item:hover p {
+/* .utf-services-area .utf-services-items .equal-height .item:hover h4, .utf-services-area .utf-services-items .equal-height .item:hover p {
 	color: #ffffff;
-}
+} */
 .utf-services-area .utf-services-items .equal-height .item:hover i{
 	background:#ffffff;
 	color:#c70039;
@@ -2999,6 +3004,22 @@ to {
 .utf-clients-area .clients-items .owl-nav .owl-next {
 	left: auto;
 	right: -30px;
+}
+.utf-services-items {
+	overflow: hidden;
+}
+.utf-services-items .item .info {
+	padding-top: 30px;
+}
+.utf-services-items .item .info span {
+	color: #c70039;
+}
+.utf-services-items .item .info span {
+	color: #c70039;
+}
+.overview-info {
+	padding: 0 15px;
+	text-align: left;
 }
 /* ============================================================== 
   # Footer 
