@@ -1853,6 +1853,11 @@ nav.navbar.bootsnav.navbar-fixed.nav-box.no-background {
 	width: 100%;
 }
 }
+@media (min-width: 1200px) {
+.container {
+	width: 1230px;
+}
+}
 body.wrap-nav-sidebar {
 	height: auto !important;
 }
