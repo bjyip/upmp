@@ -118,33 +118,33 @@ h6 {
     font-size: 18px;
 }
 .default-padding {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .padding-xl {
-	padding-bottom: 50px;
-	padding-top: 50px;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 .default-padding.bottom-less {
 	padding-bottom: 20px;
-	padding-top: 50px;
+	padding-top: 30px;
 }
 .default-padding-bottom {
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 }
 .default-padding-top {
-	padding-top: 50px;
+	padding-top: 30px;
 }
 .default-padding.bottom-30 {
 	padding-bottom: 0;
-	padding-top: 50px;
+	padding-top: 30px;
 }
 .default-padding.bottom-20 {
 	padding-bottom: 20px;
-	padding-top: 50px;
+	padding-top: 30px;
 }
 .utf-page-heading {
-	padding: 50px 0;
+	padding: 30px 0;
 }
 nav.navbar .navbar-brand img.logo {
     height: 35px;
