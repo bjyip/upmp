@@ -6,7 +6,7 @@
 		height: 65px;
 	}
 	.banner.homeBanner {
-		height: 30%;
+		height: 40%;
 	}
 	.utf-banner-area-block.auto-height h1, .utf-banner-area-block.text-normal h1, .utf-banner-area-block.large-heading h1, .utf-banner-area-block.typed-text h1 {
     font-size: 50px;
@@ -18,7 +18,7 @@ header {
 	height: 65px;
 }
 .banner.homeBanner {
-	height: 30%;
+	height: 40%;
 }
 .utf-about-area-item .right-info {
 	padding-left: 15px;
@@ -85,7 +85,7 @@ header {
 	height: 65px;
 }
 .banner.homeBanner {
-	height: 30%;
+	height: 40%;
 }
 /* Heading */
 h1 {
@@ -384,7 +384,7 @@ header {
 	height: 65px;
 }
 .banner.homeBanner {
-	height: 30%;
+	height: 40%;
 }
 .utf-portfolio-area-item .utf-portfolio-items .pf-item,  .utf-portfolio-area-item .utf-portfolio-items.col-2 .pf-item,  .utf-portfolio-area-item .utf-portfolio-items.col-3 .pf-item,  .utf-portfolio-area-item .utf-portfolio-items.col-4 .pf-item,  .utf-portfolio-area-item .utf-portfolio-items .pf-item.width {
 	width: 50%;
