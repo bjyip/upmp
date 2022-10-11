@@ -206,7 +206,8 @@ input {
 	margin-top: 20px;
 }
 .shadow.dark::after {
-	background: #000000 none repeat scroll 0 0;
+	/* background: #000000 none repeat scroll 0 0; */
+	background: #999;
 	content: "";
 	height: 100%;
 	left: 0;
@@ -701,13 +702,13 @@ nav.navbar.bootsnav .widget.instagram ul li img {
 	font-family: "Poppins", sans-serif;
 	font-weight: 500;
 	text-transform: capitalize;
-	color:#ffffff;
+	color:#333;
 }
 .utf-breadcrumb-items .breadcrumb li a{
 	color:#c70039
 }
 .breadcrumb > li + li::before {
-	color: #ffffff;
+	color: #333;
 	content: "\f105";
 	font-family: "Font Awesome 5 Free";
 	font-weight: 600;
